@@ -76,14 +76,6 @@ int main(void) {
       cout << "三角形ではないです" << endl << endl;
     }
   };
-  
-  Coordinate coordinate = {1.0, 4.0, 2.0, 5.0, 3.0, 3.0};
-  coordinate.print();
 
-  if (is_triangle(&coordinate) == true) {
-      cout << "三角形です" << endl;
-  } else {
-      cout << "三角形ではないです" << endl;
-  }
   return 0;
 }
